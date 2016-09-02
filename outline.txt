@@ -1,6 +1,30 @@
 * Introduction
 
+* Types of errors
+	* Syntax
+	* Logic
+	* Implementation
+	* Design
+	* Input errors
+	* Interaction errors
+	* Application
+	* The no-error Error
 
+* Finding the error
+	* bisection
+	* regression to minimal test program
+	* jury rigging modules
+	* testing with a different perl
+	* testing with a different account
+	* the #line and #package trick
+	* Hook::LexWrap
+	* restricting @INC
+	* printing versions of modules and Perl
+
+
+* Some stupid anti-patterns
+	* not saving the file
+	* executing the wrong file
 
 
 * Conclusion
